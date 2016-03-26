@@ -49,13 +49,13 @@
     var campusStatPolice5 = L.marker([38.9235459,-77.0215332],{icon: policeTauko}).addTo(mymap);
     var campusStatPolice6 = L.marker([38.9167761,-77.025568],{icon: policeTauko}).addTo(mymap);
     var campusStatPolice7 = L.marker([38.9203169,-77.0240974],{icon: policeTauko}).addTo(mymap);
-    campusStatPolice1.bindPopup("Stationary Police");
-    campusStatPolice2.bindPopup("Stationary Police");
-    campusStatPolice3.bindPopup("Stationary Police");
-    campusStatPolice4.bindPopup("Stationary Police");
-    campusStatPolice5.bindPopup("Stationary Police");
-    campusStatPolice6.bindPopup("Stationary Police");
-    campusStatPolice7.bindPopup("Stationary Police");
+    campusStatPolice1.bindPopup("Police");
+    campusStatPolice2.bindPopup("Police");
+    campusStatPolice3.bindPopup("Police");
+    campusStatPolice4.bindPopup("Police");
+    campusStatPolice5.bindPopup("Police");
+    campusStatPolice6.bindPopup("Police");
+    campusStatPolice7.bindPopup("Police");
     campusPoliceOffice.bindPopup("Police Station");
 //for green map pointer icon
 var policeIcon = new L.Icon({
