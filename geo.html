@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js" > </script>
+    
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+     <link rel="stylesheet" type="text/css" href="main.css">
+     <link rel="stylesheet" type="text/css" href="css/default.css">
+    <!-- Firebase -->
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.4/angularfire.min.js"></script>
+  </head>
+  <body>
+  
+    <div id="mapid"></div>
+   <!--  <div id="textid"></div> -->
+
+      <div class="sidePanel pushCar" ng-controller="myCtrl">
+       <h2> Tracked Students </h2>
+          Name: <br><input type="text" ng-model="searchname"></input>
+          <div class="footermid2">
+    </div>
+      
+    <ul id="stdlist">
+        <li ng-mouseover="true" ng-repeat="x in student | filter: searchname"> 
+         {{ x.name }} <!-- + x.classification + ' ' + x.phone}} -->
+        </li>
+
+    </ul>
+    </br>
+  </br>
+  <div ng-show="true">
+    {{x.classification}}
+  </div>
+      </div>
+
+      <script src="script.js"></script>  
+<script type="text/javascript" src="app.js"></script>
+<script src="firebase.js"></script>
+
+  </body>
+</html>

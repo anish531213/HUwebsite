@@ -1,0 +1,44 @@
+html, body, #mapid {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        float: left;
+        text-align: left; 
+        position: static;
+      }
+      .sidePanel {
+        margin-left: 75em;
+        width: 30em;
+        padding: 0em;
+        text-align: left;
+        position: absolute;
+        font-family: Arial;
+        font-size : 18px;
+        color: #660066;
+        background-color: #E0E0E0 ;
+        height: 100%;
+        font-family: Futura-light;
+      }
+
+      .studentlist {
+        font-family: Arial;
+        font-size: 18px;
+        color: #3F51B5;
+
+      }
+#stdlist {
+    text-decoration: none;
+}
+
+.pushCar {
+    padding-left: 4em;
+}
+@font-face { 
+    font-family: FuturaStd; 
+    src: url('fonts/FuturaStd-Bold.otf'); 
+} 
+@font-face { 
+    font-family: Futura-light; 
+    src: url('fonts/FuturaExtended.ttf'); 
+} 
